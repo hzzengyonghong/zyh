@@ -1,0 +1,40 @@
+//
+//  PCH.pch
+//  项目三_松果生活
+//
+//  Created by mac on 16/8/15.
+//  Copyright © 2016年 CW. All rights reserved.
+//
+
+#ifndef PCH_pch
+#define PCH_pch
+ //-----------------------第三方框架----------------------------//
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+
+
+
+//-------------------------系统参数---------------------------//
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+//---------------------------User---------------------------------//
+#define kUserCookie @"sanlian-session=MTQ3Mzc0OTM5OHxEdi1CQkFFQ180SUFBUkFCRUFBQU5mLUNBQUVHYzNSeWFXNW5EQVVBQTNWcFpBWnpkSEpwYm1jTUdnQVlOVGRpTVRJeVpHVTNZMlkzTVRFM05tSmpZalJsTlRSanxMxDyk6grk6KcRDg9TQSHHVl5f2LPLkUwBh28U1Qu_jQ=="
+
+
+
+//-------------------------API-----------------------------------//
+#define kGetMe @"http://songguolife.com/api/me"
+
+#define kGetHome @"http://songguolife.com/api/home?count=20&since=0&until=0"
+
+#define kGetMyAddress @"http://songguolife.com/api/order/address"
+
+#define kFeedBack @"http://songguolife.com/api/feedback"
+
+#define kAddressRemove @"http://songguolife.com/api/order/address/remove"
+
+#define kArticleRemove @"http://songguolife.com/api/article/remove/fav"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PCH_pch */
