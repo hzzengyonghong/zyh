@@ -58,20 +58,19 @@
         NSArray *tpye=[dic valueForKey:@"type"];
        
         
-        
         for (int i=0; i<tpye.count; i++) {
-            HomeModel *hmodel=[[HomeModel alloc]init];
-             {
-
+           
+            if ([tpye[i] intValue]==1) {
+               HomeModel *hmodel=[[HomeModel alloc]init];
                 [hmodel yy_modelSetWithDictionary:[dic valueForKey:@"activity"][i]];
                 hmodel.ulr=[[[dic valueForKey:@"activity"][i]valueForKey:@"topImage"]valueForKey:@"url"];
                 hmodel.resource=[[dic valueForKey:@"activity"][i]valueForKey:@"resource"];
                 hmodel.tpye=1;
-                hmodel.user=[[dic valueForKey:@"activity"][i]valueForKey:@"user"];}
+                hmodel.user=[[dic valueForKey:@"activity"][i]valueForKey:@"user"];
             
-            [marray addObject:hmodel];
+              [marray addObject:hmodel];
             
-        }
+            }}
         if ([req.Requesttag isEqualToString:@"0"]) {
             [self performSelectorOnMainThread:@selector(_creadTab:) withObject:marray waitUntilDone:NO];}
         if ([req.Requesttag isEqualToString:@"1"]) {
@@ -217,11 +216,6 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return kScreenHeight*10/24;
 }
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    
-    
-}
 
 
 
@@ -241,12 +235,7 @@
     
 }
 
--(void)viewWillDisappear:(BOOL)animated{
-    
-    
-    
-    
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

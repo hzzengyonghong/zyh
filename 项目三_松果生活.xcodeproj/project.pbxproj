@@ -49,9 +49,6 @@
 		04FA43571D619327003F2274 /* PersonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA43551D619327003F2274 /* PersonViewCell.m */; };
 		04FA43581D619327003F2274 /* PersonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FA43561D619327003F2274 /* PersonViewCell.xib */; };
 		04FA435B1D619609003F2274 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA435A1D619609003F2274 /* PersonModel.m */; };
-		A80549681D97AEA300FAFAAE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A80549621D97AEA300FAFAAE /* libWeChatSDK.a */; };
-		A80549691D97AEA300FAFAAE /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = A80549631D97AEA300FAFAAE /* read_me.txt */; };
-		A805496A1D97AEA300FAFAAE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A80549641D97AEA300FAFAAE /* README.txt */; };
 		A805496C1D97AF3800FAFAAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A805496B1D97AF3800FAFAAE /* SystemConfiguration.framework */; };
 		A805496E1D97AF5A00FAFAAE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A805496D1D97AF5A00FAFAAE /* libsqlite3.0.tbd */; };
 		A80549701D97AF7500FAFAAE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A805496F1D97AF7500FAFAAE /* libz.tbd */; };
@@ -224,6 +221,9 @@
 		A84EFFA21D93BF540050DBA8 /* pulldown_00066~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A84EFF1D1D93BF540050DBA8 /* pulldown_00066~iphone.png */; };
 		A84EFFA31D93BF540050DBA8 /* pulldown_00066~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A84EFF1E1D93BF540050DBA8 /* pulldown_00066~iphone@2x.png */; };
 		A84EFFA51D93C8E50050DBA8 /* pulldown_00000~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A84EFFA41D93C8E40050DBA8 /* pulldown_00000~iphone.png */; };
+		A85F8F441D9B6FAB0016B1E5 /* TopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A85F8F431D9B6FAB0016B1E5 /* TopicModel.m */; };
+		A85F8F471D9B955D0016B1E5 /* authorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A85F8F461D9B955D0016B1E5 /* authorModel.m */; };
+		A85F8F4D1D9BAE0C0016B1E5 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A85F8F4C1D9BAE0C0016B1E5 /* libWeChatSDK.a */; };
 		A8DD66021D9A063C006E5780 /* ts_xunwei~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DD65FE1D9A063C006E5780 /* ts_xunwei~iphone.png */; };
 		A8DD66031D9A063C006E5780 /* ts_xunwei~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DD65FF1D9A063C006E5780 /* ts_xunwei~iphone@2x.png */; };
 		A8DD66041D9A063C006E5780 /* ts_pinjiu~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DD66001D9A063C006E5780 /* ts_pinjiu~iphone.png */; };
@@ -455,12 +455,6 @@
 		04FA43561D619327003F2274 /* PersonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonViewCell.xib; path = "项目三_松果生活/Main/Mine/View/PersonViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		04FA43591D619609003F2274 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
 		04FA435A1D619609003F2274 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
-		A80549621D97AEA300FAFAAE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		A80549631D97AEA300FAFAAE /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
-		A80549641D97AEA300FAFAAE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		A80549651D97AEA300FAFAAE /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		A80549661D97AEA300FAFAAE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		A80549671D97AEA300FAFAAE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		A805496B1D97AF3800FAFAAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A805496D1D97AF5A00FAFAAE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		A805496F1D97AF7500FAFAAE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -654,6 +648,14 @@
 		A84EFF1D1D93BF540050DBA8 /* pulldown_00066~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pulldown_00066~iphone.png"; sourceTree = "<group>"; };
 		A84EFF1E1D93BF540050DBA8 /* pulldown_00066~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pulldown_00066~iphone@2x.png"; sourceTree = "<group>"; };
 		A84EFFA41D93C8E40050DBA8 /* pulldown_00000~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pulldown_00000~iphone.png"; sourceTree = "<group>"; };
+		A85F8F421D9B6FAB0016B1E5 /* TopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicModel.h; sourceTree = "<group>"; };
+		A85F8F431D9B6FAB0016B1E5 /* TopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicModel.m; sourceTree = "<group>"; };
+		A85F8F451D9B955D0016B1E5 /* authorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authorModel.h; sourceTree = "<group>"; };
+		A85F8F461D9B955D0016B1E5 /* authorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = authorModel.m; sourceTree = "<group>"; };
+		A85F8F491D9BADAA0016B1E5 /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		A85F8F4A1D9BADAD0016B1E5 /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		A85F8F4B1D9BADB00016B1E5 /* WechatAuthSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		A85F8F4C1D9BAE0C0016B1E5 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		A8DD65FE1D9A063C006E5780 /* ts_xunwei~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ts_xunwei~iphone.png"; sourceTree = "<group>"; };
 		A8DD65FF1D9A063C006E5780 /* ts_xunwei~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ts_xunwei~iphone@2x.png"; sourceTree = "<group>"; };
 		A8DD66001D9A063C006E5780 /* ts_pinjiu~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ts_pinjiu~iphone.png"; sourceTree = "<group>"; };
@@ -838,10 +840,10 @@
 			files = (
 				A80549741D97B2AF00FAFAAE /* libc++.tbd in Frameworks */,
 				A80549721D97AF8400FAFAAE /* CoreTelephony.framework in Frameworks */,
+				A85F8F4D1D9BAE0C0016B1E5 /* libWeChatSDK.a in Frameworks */,
 				A80549701D97AF7500FAFAAE /* libz.tbd in Frameworks */,
 				A805496E1D97AF5A00FAFAAE /* libsqlite3.0.tbd in Frameworks */,
 				A805496C1D97AF3800FAFAAE /* SystemConfiguration.framework in Frameworks */,
-				A80549681D97AEA300FAFAAE /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,7 +853,7 @@
 		04E9337F1D642D31000064A7 /* 第三方框架 */ = {
 			isa = PBXGroup;
 			children = (
-				A80549611D97AEA300FAFAAE /* SDKExport */,
+				A85F8F481D9BAD910016B1E5 /* WechatSDK */,
 				A84EFE511D9375DC0050DBA8 /* MJRefresh */,
 				B8F19F4D1D8F94D300FE95F4 /* MBProgressHUD */,
 				04E933BA1D64323A000064A7 /* AFNetworking */,
@@ -1091,6 +1093,10 @@
 			children = (
 				A8DD662A1D9A0807006E5780 /* NSString+ChineseTtansformToPinyin.h */,
 				A8DD662B1D9A0807006E5780 /* NSString+ChineseTtansformToPinyin.m */,
+				A85F8F421D9B6FAB0016B1E5 /* TopicModel.h */,
+				A85F8F431D9B6FAB0016B1E5 /* TopicModel.m */,
+				A85F8F451D9B955D0016B1E5 /* authorModel.h */,
+				A85F8F461D9B955D0016B1E5 /* authorModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1163,19 +1169,6 @@
 				B8079F471D910B2400147E92 /* FavCollectionViewCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		A80549611D97AEA300FAFAAE /* SDKExport */ = {
-			isa = PBXGroup;
-			children = (
-				A80549621D97AEA300FAFAAE /* libWeChatSDK.a */,
-				A80549631D97AEA300FAFAAE /* read_me.txt */,
-				A80549641D97AEA300FAFAAE /* README.txt */,
-				A80549651D97AEA300FAFAAE /* WechatAuthSDK.h */,
-				A80549661D97AEA300FAFAAE /* WXApi.h */,
-				A80549671D97AEA300FAFAAE /* WXApiObject.h */,
-			);
-			path = SDKExport;
 			sourceTree = "<group>";
 		};
 		A82D78BD1D9506F000494E16 /* Detaile */ = {
@@ -1278,6 +1271,17 @@
 				A84EFE731D9375DC0050DBA8 /* MJRefreshStateHeader.m */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		A85F8F481D9BAD910016B1E5 /* WechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A85F8F4C1D9BAE0C0016B1E5 /* libWeChatSDK.a */,
+				A85F8F4A1D9BADAD0016B1E5 /* WXApiObject.h */,
+				A85F8F4B1D9BADB00016B1E5 /* WechatAuthSDK.h */,
+				A85F8F491D9BADAA0016B1E5 /* WXApi.h */,
+			);
+			name = WechatSDK;
 			sourceTree = "<group>";
 		};
 		B8015F841D92623800CF6BD1 /* 素材 */ = {
@@ -1787,7 +1791,6 @@
 				A84EFF521D93BF540050DBA8 /* pulldown_00026~iphone.png in Resources */,
 				A84EFF7A1D93BF540050DBA8 /* pulldown_00046~iphone.png in Resources */,
 				A84EFF621D93BF540050DBA8 /* pulldown_00034~iphone.png in Resources */,
-				A805496A1D97AEA300FAFAAE /* README.txt in Resources */,
 				A84EFF421D93BF540050DBA8 /* pulldown_00018~iphone.png in Resources */,
 				B8015FD81D92623800CF6BD1 /* lable_seat~iphone@2x.png in Resources */,
 				A84EFF331D93BF540050DBA8 /* pulldown_00010~iphone@2x.png in Resources */,
@@ -1844,7 +1847,6 @@
 				B8015FDE1D92623800CF6BD1 /* lable_time~iphone@2x.png in Resources */,
 				A8DD66091D9A0645006E5780 /* ts_kanpian~iphone@2x.png in Resources */,
 				B801600D1D92623800CF6BD1 /* tab_home_active~iphone.png in Resources */,
-				A80549691D97AEA300FAFAAE /* read_me.txt in Resources */,
 				A84EFF451D93BF540050DBA8 /* pulldown_00019~iphone@2x.png in Resources */,
 				A84EFF4A1D93BF540050DBA8 /* pulldown_00022~iphone.png in Resources */,
 				04FA43581D619327003F2274 /* PersonViewCell.xib in Resources */,
@@ -1995,6 +1997,7 @@
 				A84EFE861D9375DC0050DBA8 /* MJRefreshAutoNormalFooter.m in Sources */,
 				04EB26961D615E4900EF81DD /* ________.xcdatamodeld in Sources */,
 				04EB26CE1D6163C300EF81DD /* DiscoverViewController.m in Sources */,
+				A85F8F441D9B6FAB0016B1E5 /* TopicModel.m in Sources */,
 				04EB26B91D61609B00EF81DD /* BaseViewController.m in Sources */,
 				A84EFE911D9375DC0050DBA8 /* UIScrollView+MJExtension.m in Sources */,
 				A84EFE901D9375DC0050DBA8 /* NSBundle+MJRefresh.m in Sources */,
@@ -2050,6 +2053,7 @@
 				A84EFE831D9375DC0050DBA8 /* MJRefreshFooter.m in Sources */,
 				B80160421D92626700CF6BD1 /* HomeCell.m in Sources */,
 				B8079F321D90D99100147E92 /* BaseCollectionViewController.m in Sources */,
+				A85F8F471D9B955D0016B1E5 /* authorModel.m in Sources */,
 				04EB26D31D61646A00EF81DD /* ActivityViewController.m in Sources */,
 				B80160461D92626700CF6BD1 /* TextCell.m in Sources */,
 				04E933CA1D64323A000064A7 /* AFSecurityPolicy.m in Sources */,
@@ -2183,6 +2187,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/项目三_松果生活/第三方框架/SDKExport",
+					"$(PROJECT_DIR)/项目三_松果生活/第三方框架",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "chengwei.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2204,6 +2209,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/项目三_松果生活/第三方框架/SDKExport",
+					"$(PROJECT_DIR)/项目三_松果生活/第三方框架",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "chengwei.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

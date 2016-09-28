@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *ImageV;
 
+//@property (weak, nonatomic) IBOutlet UIView *TextV;
 @property (weak, nonatomic) IBOutlet UILabel *time;
 @property (weak, nonatomic) IBOutlet UILabel *address;
 @property (weak, nonatomic) IBOutlet UILabel *name;

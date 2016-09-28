@@ -13,7 +13,7 @@
 #define KSongGuoaddressFont 12
 #define TextWeightadaption @"TextWeightadaption"
 #define TextHeightadaption @"TextHeightadaption"
-#define TextColor ([UIColor colorWithWhite:0.8 alpha:1])
+#define TextColor ([UIColor colorWithWhite:0.8 alpha:0.8])
 
 
 @implementation HomeCell{
@@ -25,10 +25,16 @@
 
 }
 -(void)hModel:(HomeModel *)hmodel{
+    //_TextV.backgroundColor=[UIColor colorWithWhite:0.9
+                                         //    alpha:0.2];
+    _name.textColor=TextColor;
+    _address.textColor=TextColor;
+    _time.textColor=TextColor;
+  
+    
     if (_hmodel.tpye==1) {
         [self tpye1];
       
-       // _ImageV.contentMode= UIViewContentModeScaleAspectFill;
     }else{
     
         [self tpye0];
@@ -36,6 +42,29 @@
     
    
 }
+//- (CAGradientLayer *)shadowAsInverse
+//{
+//    CAGradientLayer *gradientLayer = [[CAGradientLayer alloc] init];
+//    CGRect newGradientLayerFrame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+//    gradientLayer.frame = newGradientLayerFrame;
+//    
+//    //添加渐变的颜色组合
+//    gradientLayer.colors = [NSArray arrayWithObjects:(id)[[[UIColor blackColor] colorWithAlphaComponent:1]CGColor],
+//                            (id)[[[UIColor yellowColor] colorWithAlphaComponent:1]CGColor],
+//                            (id)[[[UIColor redColor] colorWithAlphaComponent:1] CGColor],
+//                            (id)[[UIColor clearColor] CGColor],
+//                            nil];
+//    
+//    gradientLayer.locations = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0],
+//                               [NSNumber numberWithFloat:0.2],
+//                               [NSNumber numberWithFloat:0.4],
+//                               [NSNumber numberWithFloat:0.9],
+//                               nil];
+//    
+//    gradientLayer.startPoint = CGPointMake(0,0);
+//    gradientLayer.endPoint = CGPointMake(1,1);
+//    return gradientLayer;
+//}
 -(void)tpye1{
     _address.text=_hmodel.address;
     _name.text=_hmodel.name;
@@ -48,7 +77,7 @@
     [self TextWithLabel:_address WithText:_address.text WithTextLayoutType:TextWeightadaption];
     [_ImageV sd_setImageWithURL:[NSURL URLWithString:_hmodel.ulr]];
   
-   // [_address setTextColor:TextColor];
+ 
     
 
 
@@ -59,7 +88,7 @@
     _name.text=_hmodel.title;
     _time.text=@"by 松果";
     [self TextWithLabel:_name WithText:_name.text WithTextLayoutType:TextHeightadaption];
-  //  NSLog(@"%@",_hmodel.ulr);
+  
     [_ImageV sd_setImageWithURL:[NSURL URLWithString:_hmodel.ulr]];
 }
 
@@ -84,7 +113,6 @@
   WithTextLayoutType:(NSString *)tpyeStr{
     label.text=text;
     
-    [label setTextColor:TextColor];
     NSDictionary *attribute=@{NSFontAttributeName :[UIFont fontWithName:@"Helvetica-Bold" size:20]};
 
     
